@@ -15,6 +15,7 @@ jobs:
         uses: gsactions/commit-message-checker@v1
         with:
           pattern: '^[a-z\-]+\:[ ]{0,1}[a-z]+$'
-          error: 'Commit message subject should be formatted as: "prefix: lowercase description", see https://github.com/fluent/fluent-bit/blob/master/CONTRIBUTING.md#commit-changes'
+          error: 'Invalid commit subject: https://github.com/fluent/fluent-bit/blob/master/CONTRIBUTING.md#commit-changes'
           checkAllCommitMessages: 'true'
           excludeDescription: 'true'
+          accessToken: ${{ secrets.GITHUB_TOKEN }}
