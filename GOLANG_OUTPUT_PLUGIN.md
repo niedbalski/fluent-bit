@@ -1,5 +1,7 @@
 # Fluent Bit + Golang output plugins
 
+Testing 18
+
 The current development version of Fluent Bit, integrates support to load
 _shared_ plugins built in Golang. The interface still needs some adjustment
 but is functional. The expectation is to release Fluent Bit v0.10 with full
