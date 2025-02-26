@@ -71,6 +71,7 @@ DEFINE_OPTION(FLB_PROCESSOR_LABELS            "Enable metrics label manipulation
 DEFINE_OPTION(FLB_PROCESSOR_METRICS_SELECTOR  "Enable metrics selector processor"            ON)
 DEFINE_OPTION(FLB_PROCESSOR_SQL               "Enable SQL processor"                         ON)
 DEFINE_OPTION(FLB_PROCESSOR_OPENTELEMETRY_ENVELOPE "Enable OpenTelemetry envelope processor"  ON)
+DEFINE_OPTION(FLB_PROCESSOR_CHUNK_DEDUP               "Enable chunk dedup processor"                         ON)
 
 # Filters
 # =======
